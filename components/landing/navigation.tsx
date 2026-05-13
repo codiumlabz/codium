@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
+import { StartCreatingDrawer } from "./start-creating-drawer";
 import { Menu, X } from "lucide-react";
 
 const navLinks = [
@@ -68,12 +69,14 @@ export function Navigation() {
             <a href="#" className={`text-foreground/70 hover:text-foreground transition-all duration-500 ${isScrolled ? "text-xs" : "text-sm"}`}>
               Sign in
             </a>
-            <Button
-              size="sm"
-              className={`bg-foreground hover:bg-foreground/90 text-background rounded-full transition-all duration-500 ${isScrolled ? "px-4 h-8 text-xs" : "px-6"}`}
-            >
-              Start creating
-            </Button>
+            <StartCreatingDrawer>
+              <Button
+                size="sm"
+                className={`bg-foreground hover:bg-foreground/90 text-background rounded-full transition-all duration-500 ${isScrolled ? "px-4 h-8 text-xs" : "px-6"}`}
+              >
+                Start creating
+              </Button>
+            </StartCreatingDrawer>
           </div>
 
           {/* Mobile Menu Button */}
@@ -136,12 +139,13 @@ export function Navigation() {
             >
               Sign in
             </Button>
-            <Button 
-              className="flex-1 bg-foreground text-background rounded-full h-14 text-base"
-              onClick={() => setIsMobileMenuOpen(false)}
-            >
-              Start creating
-            </Button>
+            <StartCreatingDrawer>
+              <Button 
+                className="flex-1 bg-foreground text-background rounded-full h-14 text-base"
+              >
+                Start creating
+              </Button>
+            </StartCreatingDrawer>
           </div>
         </div>
       </div>
