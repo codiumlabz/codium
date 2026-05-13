@@ -65,8 +65,10 @@ export default function ContactPage() {
 
   const contactInfo = [
     { icon: Mail, label: "Email", value: "hello@codium.com", href: "mailto:hello@codium.com" },
-    { icon: Phone, label: "Phone", value: "+1 (555) 123-4567", href: "tel:+15551234567" },
-    { icon: MapPin, label: "Office", value: "San Francisco, CA", href: "#" },
+    { icon: Phone, label: "Phone (Singapore)", value: "+65 8430 9344", href: "tel:+6584309344" },
+    { icon: Phone, label: "Phone (Sri Lanka)", value: "+94 71 1796 476", href: "tel:+94711796476" },
+    { icon: MapPin, label: "Office (Singapore)", value: "Blk 296,Punggol Centeral #02-497 singapore 820296", href: "#" },
+    { icon: MapPin, label: "Office (Sri Lanka)", value: "Halmillakulama wawa road, Haritha Pedesa Nochchiyagama", href: "#" },
   ];
 
   return (
