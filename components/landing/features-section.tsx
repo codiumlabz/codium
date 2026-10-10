@@ -272,7 +272,7 @@ function FeatureCard({ feature, index }: { feature: typeof features[0]; index: n
       <div className="flex flex-col lg:flex-row gap-8 lg:gap-16 py-12 lg:py-20 border-b border-foreground/10">
         {/* Number */}
         <div className="shrink-0">
-          <span className="font-mono text-sm text-muted-foreground">{feature.number}</span>
+          <span className="font-mono text-sm text-secondary font-semibold">{feature.number}</span>
         </div>
         
         {/* Content */}

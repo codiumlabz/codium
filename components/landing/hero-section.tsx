@@ -63,7 +63,7 @@ export function HeroSection() {
           }`}
         >
           <span className="inline-flex items-center gap-3 text-sm font-mono text-muted-foreground">
-            <span className="w-8 h-px bg-foreground/30" />
+            <span className="w-8 h-px bg-secondary" />
             Custom software development
           </span>
         </div>
@@ -95,7 +95,7 @@ export function HeroSection() {
                     </span>
                   ))}
                 </span>
-                <span className="absolute -bottom-2 left-0 right-0 h-3 bg-foreground/10" />
+                <span className="absolute -bottom-2 left-0 right-0 h-3 bg-secondary/25 -z-10 rounded-xs" />
               </span>
             </span>
           </h1>
