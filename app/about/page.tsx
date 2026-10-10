@@ -71,7 +71,7 @@ export default function AboutPage() {
               future of software
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed max-w-2xl">
-              Codium is a creative technology company that partners with ambitious teams to design,
+              Zenvora is a creative technology company that partners with ambitious teams to design,
               build, and scale exceptional digital products. Founded in 2018, we&apos;ve delivered
               180+ projects for startups and enterprises worldwide.
             </p>

@@ -58,7 +58,7 @@ export function CtaSection() {
                 </h2>
 
                 <p className="text-xl text-muted-foreground mb-12 leading-relaxed max-w-xl">
-                  Join 1200+ companies that trust Codium to bring their vision to life. 
+                  Join 1200+ companies that trust Zenvora to bring their vision to life. 
                   Let&apos;s create software that matters.
                 </p>
 

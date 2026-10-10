@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 
 const testimonials = [
   {
-    quote: "Codium transformed our vision into a world-class product. Their expertise in modern tech stacks and user experience made all the difference.",
+    quote: "Zenvora transformed our vision into a world-class product. Their expertise in modern tech stacks and user experience made all the difference.",
     author: "Sarah Chen",
     role: "Founder & CEO",
     company: "Beacon Analytics",

@@ -58,7 +58,7 @@ export function StartCreatingDrawer({ children }: { children: React.ReactNode })
             <Input
               id="projectName"
               required
-              placeholder="e.g. Codium App"
+              placeholder="e.g. Zenvora App"
               value={formData.projectName}
               onChange={(e) => setFormData({ ...formData, projectName: e.target.value })}
               className="rounded-none border-foreground/20 focus-visible:border-foreground h-11 px-4"
